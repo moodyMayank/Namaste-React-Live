@@ -3,3 +3,4 @@
 - Git Lens
 - Prettier
 - vscode-icons
+- Material Icons
