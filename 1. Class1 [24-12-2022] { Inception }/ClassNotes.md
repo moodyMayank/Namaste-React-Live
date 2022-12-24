@@ -1,9 +1,3 @@
-- Better Comments
-- Bracket Pair Colorization Toggler
-- Git Lens
-- Prettier
-- vscode-icons
-
 Topics :
 
 - Printing H1 directly
