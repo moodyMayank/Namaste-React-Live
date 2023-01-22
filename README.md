@@ -7,5 +7,12 @@ This repository is part of the Namaste React Live Course.
 
 #### Classes
 
-1. 24 December 2022 [ Chapter01 - Inception ]
-2. 25 December 2022 []
+1. Chapter01 - Inception
+2. Chapter02 - Ignite Our App
+3. Chapter03 - Laying the Foundation
+4. Chapter04 - Talk is Cheap, Show me the code
+5. Chapter05 - Lets get Hooked
+6. Chapter06 - Exploring the World
+7. Chapter07 - Finding the Path
+8. Chapter08 - Let's get Classy
+9. Chapter09 - Optimizing our App

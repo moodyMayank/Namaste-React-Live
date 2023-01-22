@@ -1,0 +1,5 @@
+- React is made from javascript only made by facebook engineers
+- React CDN is giving us react functions to use , that is the fastest way to use react.
+- React is a global Object when using CDN
+- ReactDOM { Print it Secret internals do not use or you will be fired }
+- React - core library , ReactDOM - gives access to DOM of the Browser

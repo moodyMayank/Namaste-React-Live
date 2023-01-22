@@ -1,1 +1,3 @@
-1. React Overriding whatever is in root with render and only showing what is in render().
+### Questions from Namaste React Live
+
+- React Overriding whatever is in root with render and only showing what is in render().
