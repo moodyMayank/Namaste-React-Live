@@ -1,1 +1,33 @@
-<!-- Using React CDN , Print Hello World and  -->
+<!-- Using React CDN , Print Hello World -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script
+    crossorigin
+    src="https://unpkg.com/react@18/umd/react.development.js"
+  ></script>
+  <script
+    crossorigin
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+  ></script>
+  <script>
+    // Returns a React Element
+    const heading = React.createElement("h1", {}, "Hello World using React");
+
+    console.log(heading);
+
+    // Creating rootElement , so we need DOM : Using ReactDOM
+    const rootElement = ReactDOM.createRoot(document.getElementById("root"));
+
+    // Passing a React Element inside the root Element
+    rootElement.render(heading);
+  </script>
+</html>

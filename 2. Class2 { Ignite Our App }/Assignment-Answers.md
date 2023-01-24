@@ -2,9 +2,13 @@
 
 #### What is `Parcel/WebPack`?
 
+- Parcel is a Blazing fast , zero configuration web application bundler. Basically It is a build tool for react. So instead of using Webpack , we can also use Parcel.
+
 #### What is `.parcel-cache`?
 
 #### What is `npx`?
+
+- npx stands for `Node Package Execute` , it come with npm
 
 #### What is difference between `dependencies vs devDependencies`?
 

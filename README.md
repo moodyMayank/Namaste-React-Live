@@ -16,3 +16,8 @@ This repository is part of the Namaste React Live Course.
 7. Chapter07 - Finding the Path
 8. Chapter08 - Let's get Classy
 9. Chapter09 - Optimizing our App
+
+#### Code Reference Link
+
+- Live Class Code Link by Akshay Saini :-
+- https://bitbucket.org/namastedev/

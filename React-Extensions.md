@@ -1,6 +1,0 @@
-- Better Comments
-- Bracket Pair Colorization Toggler
-- Git Lens
-- Prettier
-- vscode-icons
-- Material Icons

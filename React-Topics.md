@@ -1,5 +1,9 @@
 ## All the topics of React
 
-1. React CDN
-2. ReactDOM
-3.
+- React CDN
+- React DOM
+- React Router DOM
+- React Class Components
+- React Functional Components
+- React Hooks
+  -
