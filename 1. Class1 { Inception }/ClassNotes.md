@@ -39,15 +39,49 @@
 
 ---
 
-- Syntax of React.createElement();
+[React.createElement()](https://beta.reactjs.org/reference/react/createElement)
+
+- Code : React.createElement("h1",{},"Hello world with React");
+
+- Syntax of React.createElement() :-
+  const element = createElement(type, props, ...children)
+
+  - type : h1, h2 , p , a etc.
+  - props : Must be either object or null { null => empty object}. React creates a element using that props like className , id etc.
+  - children : It contains the text or whatever content we want.
+    - Multiple children should only be passed if they are statically known.
+    - Dynamic Children should be passed as array
+
+Note : Dynamic Lists can change and thats why react warns about adding keys to them . Static lists do not requires this because they never reorder.
+
+- Used for creating element without JSX
+
 - Syntax of ReactDOM.createRoot();
 - React.createElement returns a object i.e. called ReactElement and then it is passed to RootElement through render method. Render method takes the react element and injects it inside the browser DOM.
+
+---
+
+- So we can have our html code and also react code in single file because React Code is injected in div with id="root". So our code can look like this :-
+    <div>
+        <p>Hello World </p>
+        <div id="root"></div>
+    </div>
+
+- If We had Elements inside <div id="root"> , we inject code through react , then all the code inside <div id="root"> will be replaced and React overrides whatever is present there.
+
+- The React produces JS files , which takes time to load and thats why there is very minutee lag between rendering.
+
+- Children in React.createElement should be passed using Array
+- So here we see using React.createElement is easy but making complex structure is quite difficult and long messy way.
+- So React came up with JSX.
+-
 
 ### Explore and Read it out :-
 
 - Emmet Plugin
-- CDN , Crossorigin
--
+- CDN
+- Crossorigin
+- Async / Defer
 
 ### Class Tasks :-
 

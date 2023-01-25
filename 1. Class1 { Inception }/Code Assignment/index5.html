@@ -1,0 +1,45 @@
+<!-- Here We see that It first prints `Not Rendered` and then React overwrites the <div id="root"> and Previous code is replaced -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React</title>
+  </head>
+  <body>
+    <div id="root">
+      <h1>Not Rendered</h1>
+    </div>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script>
+      // React.createElement(type,props,...children)
+      // Returns a React Element
+      const heading = React.createElement(
+        "h1",
+        {
+          // Here added the property
+          id: "title",
+        },
+        "Hello World using React",
+        "Second Hello World"
+      );
+
+      console.log(heading);
+
+      // Creating rootElement , so we need DOM : Using ReactDOM
+      const rootElement = ReactDOM.createRoot(document.getElementById("root"));
+
+      // Passing a React Element inside the root Element
+      rootElement.render(heading);
+    </script>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-<!-- Using React CDN , Print Hello World -->
+<!-- Using the props in React.createElement  -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,7 +23,10 @@
     // Returns a React Element
     const heading = React.createElement(
       "h1",
-      {},
+      {
+        // Here added the property
+        id: "title",
+      },
       "Hello World using React",
       "Second Hello World"
     );
