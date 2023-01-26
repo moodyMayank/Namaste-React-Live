@@ -73,7 +73,7 @@ Note : Dynamic Lists can change and thats why react warns about adding keys to t
 
 - Children in React.createElement should be passed using Array
 - So here we see using React.createElement is easy but making complex structure is quite difficult and long messy way.
-- So React came up with JSX.
+- So React came up with JSX , so that we dont need to create using createElement.
 -
 
 ### Explore and Read it out :-

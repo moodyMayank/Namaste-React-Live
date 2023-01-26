@@ -16,6 +16,9 @@
 
 #### What is Hot Module Replacement?
 
+- Hot Module Replacement improves the development experience by automatically updating modules in the browser at runtime without needing a whole page refresh.
+- HMR exchanges , adds or removes modules while an application is running, without a full reload.
+
 #### What is `.gitignore`?What should we add and not add into it?
 
 #### What is the difference between `package.json` and `package-lock.json`?
