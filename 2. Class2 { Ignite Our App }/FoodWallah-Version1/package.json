@@ -1,0 +1,11 @@
+{
+  "name": "foodwallah-version1",
+  "version": "1.0.0",
+  "description": "This is a Food App",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mayank Kumar",
+  "license": "ISC"
+}

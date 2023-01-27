@@ -82,9 +82,3 @@ Note : Dynamic Lists can change and thats why react warns about adding keys to t
 - CDN
 - Crossorigin
 - Async / Defer
-
-### Class Tasks :-
-
-- Printing Hello World using HTML only.
-- Printing Hello World using Javascript only.
-- Printing Hello World using React CDN.

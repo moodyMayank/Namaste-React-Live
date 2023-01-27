@@ -1,44 +1,52 @@
-### Notes - Igniting our App
+### Package-lock.json
 
-- Build our own create-react-app
-- We get the superpowers of react , that we can use .SO to use them we need to fetch those powers first
+- It is a very important file as it locks the version of package.
+- Never keep it in gitignore file. Then we will run on the issues that it is running on my system and not on production.
+-
 
-  - CDN : Import the links React and ReactDOM
+### Topics Discussed :-
 
-- Minifiers and Bundlers
-- React does not enforce anything , we can use a lot of libraries with.
+### Important Points :-
 
+### Notes :-
+
+- The Code in previous is good but its not production ready. So making our code production ready we need
+
+  - Minify the code
+  - Bundle things up
+  - server to run our app
+  - Remove Console.logs
+  - A lot more stuff
+
+- React does not enforce anything and we can use a lot of different libraries with it.
+- Example by default React gives us the webpack as bundler but we can use our own different bundler like parcel, Vite.
+- npx create-react-app uses webpack as a bundler.
 - Bundlers
 
   - Webpack is one of the bundlers
   - parcel , vite are more examples
   - Babel is not a bundler
 
-- Original create-react-app uses webpack as bundler, babel.
-
-- We will study Parcel bundler
-- Parcel is a bundler package , they do the minifying of the code , optimizations , remove console.logs.
+- So before using any of the packages , we need package manager , where we can see and manage our packages => npm.
 - npm does not stand for node package manager. It is said by people only and even on npm site : they troll npm full form.
 - NPM full form has its npm expansions repo , where people have submitted NPM funny full forms
-
 - npm init { initialization } , It is used to get npm in our app.
 - npm init -y { -y : skips a lot of options}
+- So instead of using NPM , we can also use yarn.
 
-- npm init : Basically npm init is initializing the package.json file. Now we know that it is a config file. So there different settings that we do in this file. Now this file comes automatic with create-react-app but here we are setting it from scratch.
+- Initialise a project : Food App with npm init and fill the options although we can modify later also.
+- npm init gives us the package.json file where we do project setup.
 
-### Building Create-react-app from scratch
+- So the crux of the NPM is , we use it because we need a lot of packages. Those helper packages come inside Package.json file.
+- Install the Parcel Bundler as dev Dependency.
+- DevDependency installing means it is not required in production.
+- Installing a Package also introduces package-lock.json and node_modules.
 
-- npm init :-
-  - This gives us the package.json file , with which we setup the whole config file.
-  - Then we will add the devDependencies and Dependencies accordingly.
-  - Then we add
-  - Now our basic package.json is done.
-  - Now we will do npm install it will add node_modules and package-lock.json file.
-  - Now we add .gitignore file and dist folder
-  - The main files App.js , index.html , index.css are already added with index.html being the main entryPoint.
+- "devDependencies": {
+  "parcel":
+  }
 
-### Package-lock.json
+### Explore and Read it out :-
 
-- It is a very important file as it locks the version of package.
-- Never keep it in gitignore file. Then we will run on the issues that it is running on my system and not on production.
--
+- Read about what all we need to do , to make our code production ready
+- Read about caret ^ and ~ sign.
