@@ -1,4 +1,4 @@
-# Namaste-React-Live
+# ❤️Namaste-React-Live🙌
 
 This repository is part of the Namaste React Live Course.
 
