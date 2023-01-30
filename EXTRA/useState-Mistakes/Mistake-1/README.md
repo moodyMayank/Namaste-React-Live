@@ -22,7 +22,7 @@
 - Here we are directly updating the state with number and not using the previous Updated State value.
 - Since we are directly updating state and not using the previous value , button2 does not picks previous value and it only remembers the state it picked when onclick was called.
 
-#### Solution :
+#### Solution
 
 - We need to use previous Value of the State.
 - We pass a callback here which uses the previous value of the state and updates the latest state value only.
