@@ -1,6 +1,6 @@
 ### Mistake-1 :-
 
-#### useState Functional Update : Why useState doesn't update immediately ?
+### useState Functional Update : Why useState doesn't update immediately ?
 
 #### Situation
 
